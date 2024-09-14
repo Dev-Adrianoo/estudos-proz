@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Teste</title>
+    <style>
+        body {
+            background-image: url(imagens/furto-e-roubo-1024x683.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        a {
+            background-color: #127369;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            background-color: aqua;
+        }
+        fieldset {
+            background-image: linear-gradient(to right, aqua, royalblue);
+        }
+        label {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seus dados foram roubados</h1>
+
+    <fieldset><legend></legend>
+
+    <form action="">
+        <label for="satisfação">
+        Nivel de Satisfação: <br> <br>
+        😞 Desagradável<input type="radio" name="satisfação"> 
+        😐 Neutro <input type="radio" name="satisfação">
+        😁 Bom<input type="radio" name="satisfação">
+        😆 Satisfeito<input type="radio" name="satisfação"> <br> <br>
+
+        </label>
+        <label for="textarea">
+                Deixe seu FeedBack: <br>
+            <textarea  class="feedback" name="textarea" id="" maxlength="150"  placeholder="Digite oque podemos melhorar: ">
+            </textarea>
+        </label>
+        <p><a class="ancora-voltar" href="index.html">Voltar</a></p>
+        <p><a href="proximo.html">ir para frente</a></p>
+    </form>
+    </fieldset>
+</body>
+</html>

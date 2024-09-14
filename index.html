@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+    <style>
+        body {
+            background-image: url(imagens/pexels-sanaan-3075993.jpg);
+            background-size: contain;
+        }
+        fieldset {
+            background-image: linear-gradient(to right, aqua, royalblue);
+        }
+    </style>
+</head>
+<body>
+
+    <img class="fotinha" src="imagens/ceuazul.jpg" alt="">
+    <fieldset class="formulario">CADASTRO DE ALUNO(A)</legend>
+
+        <h1>Cadasta ai parcero, para clonarmos seu cartão</h1>
+        <form name="formalunos" action="" method="post">
+            <label for="ALUNO">NOME DO ALUNO:</label>
+                <input type="text" id="aluno" name="aluno" style="width: 310px;" required><br>
+                <label for="senha" required>DIGITE SUA SENHA:</label>
+                <input type="password" name="senha" id="" style="width: 298px;" required> <br>
+                <label for="R.A">R.A :
+                    <input style="width: 420px;" type="text" name="R.A" required><br>
+                </label>
+                <label for="cpf">CPF: 
+                    <input style="width: 415px;" type="number_format" maxlength="14" name="cpf" required placeholder="xxx.xxx.xxx-xx" > <br>
+                </label>
+                <label for="cep">
+                  CEP:  <input style="width: 415px;" type="text" name="cep" required> <br>
+                </label>
+                <label for="bairro">
+                  BAIRRO:  <input style="width: 385px;" type="text" name="bairro" required> <br>
+                </label>
+                <label for="SEXO">
+                    SEXO: <br>
+                    <input type="radio" name="SEXO" id="" value="masculino"> MASCULINO <br>
+                    <input type="radio" name="SEXO" id="" value="feminino"> FEMININO <br>
+                    <input type="radio" name="SEXO" id="" value="outro"> OUTRO <br>
+                </label> 
+            
+                        <p><a class="button-enviar" href="inicial.html">Enviar</a></p>
+        </form>
+    </fieldset>
+</body>
+</html>

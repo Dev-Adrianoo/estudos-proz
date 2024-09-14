@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#bfbfbfe0;   
+}
+
+fieldset {
+    border-radius: 20px;
+    background-color: #4C5958;
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: #697b79;
+    border-radius: 5px;
+}
+
+form {
+    color: white;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    
+}
+
+legend {
+    color: black;
+    font-size: large;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #127369;
+    margin: 0px;
+    background-attachment: fixed;
+    padding: 0px;
+    color: white;
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.ancora-voltar {
+    background-color: #127369;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.ancora-voltar:hover {
+    background-color: #4C5958;
+}
+
+button {
+    border-radius: 6px;
+    width: 200px;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+.Voltar {
+    text-decoration: none;
+}
+
+.button-enviar {
+    background-color: #697b79;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.button-enviar:hover {
+    background-color: #127369;
+}
+
+.feedback {
+    margin-top: 20px;
+    display: block;
+}
+
+footer {
+    background-color: burlywood;
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    bottom: 0;
+    border-radius: 5px;
+}
